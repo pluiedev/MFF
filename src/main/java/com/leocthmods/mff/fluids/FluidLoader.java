@@ -22,21 +22,21 @@ import java.util.Iterator;
 import java.util.HashSet;
 
 public class FluidLoader {
-    public static Fluid fluidMenstrual = new FluidMenstrual();
+    public static Fluid blood = new FluidBlood();
 
     public FluidLoader(FMLPreInitializationEvent event) {
-        if (FluidRegistry.isFluidRegistered(fluidMenstrual)) {
-            MyFoodFactory.LOGGER.warn("Fluid {} has been already registered, registering cancelled", fluidMenstrual.getName());
-            fluidMenstrual = FluidRegistry.getFluid(fluidMenstrual.getName());
+        if (FluidRegistry.isFluidRegistered(blood)) {
+            MyFoodFactory.LOGGER.warn("Fluid {} has been already registered, registering cancelled", blood.getName());
+            blood = FluidRegistry.getFluid(blood.getName());
         } else {
-            FluidRegistry.registerFluid(fluidMenstrual);
+            FluidRegistry.registerFluid(blood);
         }
     }
 
     @SideOnly(Side.CLIENT)
     public static void registerRenders()
     {
-        registerFluidRender((BlockFluidBase) BlockLoader.fluidMenstrual, "menstrual_fluid");
+        registerFluidRender((BlockFluidBase) BlockLoader.fluidBlood, "blood");
     }
 
     @SideOnly(Side.CLIENT)
@@ -48,8 +48,7 @@ public class FluidLoader {
         ModelLoader.setCustomStateMapper(blockFluid, new StateMapperBase()
         {
             @Override
-            protected ModelResourceLocation getModelResourceLocation(IBlockState state)
-            {
+            protected ModelResourceLocation getModelResourceLocation(IBlockState state) {
                 return new ModelResourceLocation(location, "fluid");
             }
         });

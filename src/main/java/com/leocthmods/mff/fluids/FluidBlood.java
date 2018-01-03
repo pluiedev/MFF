@@ -6,14 +6,14 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fluids.BlockFluidClassic;
 import net.minecraftforge.fluids.Fluid;
 
-public class FluidMenstrual extends Fluid {
+public class FluidBlood extends Fluid {
 
-    public static final ResourceLocation still = new ResourceLocation(MyFoodFactory.MODID + ":" + "fluid/menstrual_fluid_still");
-    public static final ResourceLocation flowing = new ResourceLocation(MyFoodFactory.MODID + ":" + "fluid/menstrual_fluid_flowing");
+    public static final ResourceLocation still = new ResourceLocation(MyFoodFactory.MODID + ":" + "fluid/blood_still");
+    public static final ResourceLocation flowing = new ResourceLocation(MyFoodFactory.MODID + ":" + "fluid/blood_flow");
 
-    public FluidMenstrual() {
-        super("menstrual_fluid", still, flowing);
-        this.setUnlocalizedName("fluidMenstrual"/*"theDisgustingStuffYouMightHaveIfThereIsNoSex"*/);
+    public FluidBlood() {
+        super("blood", still, flowing);
+        this.setUnlocalizedName("blood");
         this.setDensity(1060 /* Data from WolframAlpha: 1.06g/cm^3 */);
         this.setViscosity(3300 /* from WolframAlpha: 3.3centipoise*/);
         this.setLuminosity(0);

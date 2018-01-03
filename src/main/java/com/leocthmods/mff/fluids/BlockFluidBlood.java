@@ -5,11 +5,11 @@ import com.leocthmods.mff.MyFoodFactory;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.fluids.BlockFluidClassic;
 
-public class BlockFluidMenstrual extends BlockFluidClassic {
-    public BlockFluidMenstrual() {
-        super(FluidLoader.fluidMenstrual, Material.WATER);
-        this.setUnlocalizedName("fluidMenstrual");
+public class BlockFluidBlood extends BlockFluidClassic {
+    public BlockFluidBlood() {
+        super(FluidLoader.blood, Material.WATER);
+        this.setUnlocalizedName("blood");
         this.setCreativeTab(CreativeTabsLoader.tabMFF);
-        this.setRegistryName(MyFoodFactory.MODID + ":" + "menstrual_fluid");
+        this.setRegistryName(MyFoodFactory.MODID + ":" + "blood");
     }
 }
