@@ -1,6 +1,7 @@
 package com.leocthmods.mff.blocks;
 
-import com.leocthmods.mff.fluids.BlockFluidMenstrual;
+import com.leocthmods.mff.fluids.BlockFluidBlood;
+import com.leocthmods.mff.fluids.FluidLoader;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -17,7 +18,7 @@ public class BlockLoader {
 	public static Block tofuBlock 			= new BlockTofu();
 	public static Block antennaBlock		= new BlockAntenna();
 	public static Block mechanicFrameBlock	= new BlockMechanicFrame();
-	public static Block fluidMenstrual      = new BlockFluidMenstrual();
+	public static Block fluidBlood      = new BlockFluidBlood();
 
 	public BlockLoader(FMLPreInitializationEvent event)
     {
@@ -25,7 +26,7 @@ public class BlockLoader {
         register(tofuBlock, new ItemBlock(tofuBlock));
         register(antennaBlock, new ItemBlock(antennaBlock));
         register(mechanicFrameBlock, new ItemBlock(mechanicFrameBlock));
-        register(fluidMenstrual, new ItemBlock(fluidMenstrual));
+        register(fluidBlood, new ItemBlock(fluidBlood));
     }
 
     @SideOnly(Side.CLIENT)
@@ -35,6 +36,7 @@ public class BlockLoader {
         registerDefaultRender(meatBlock);
         registerDefaultRender(tofuBlock);
         registerDefaultRender(mechanicFrameBlock);
+        FluidLoader.registerRenders();
     }
 
     private static void register(Block b, ItemBlock iB)
