@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  E",
+    " R ",
+    "C  "
+  ],
+  "key": {
+    "C": {
+      "item": "mff:conductor_alloy_ingot",
+      "data": 0
+    },
+    "R": {
+    	  "item": "mff:framing_ingot",
+    	  "data": 0
+    },
+    "E": {
+    	   "item": "mff:ev_crystal",
+    	   "data": 0
+    }
+  },
+  "result": {
+    "item": "mff:reinforced_sword"
+  }
+}

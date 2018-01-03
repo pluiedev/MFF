@@ -1,0 +1,13 @@
+tile.blockMeat.name=肉块
+tile.blockTofu.name=豆腐块
+tile.mechanicFrame.name=硬化机械框架
+item.framingIngot.name=硬化框架合金
+item.tofu.name=豆腐
+item.ceramicSpoon.name=瓷制勺子
+item.conductorAlloyIngot.name=电能传导合金锭
+item.ev_crystal.name=电能震动水晶
+item.forgingHammer.name=锻造锤
+tile.antenna.name=天线
+fluid.fluidMenstrual=经血
+tile.fluidMenstrual=经血
+itemGroup.mff=我的食物工厂[MFF]

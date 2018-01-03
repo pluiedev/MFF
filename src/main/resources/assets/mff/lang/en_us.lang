@@ -1,0 +1,13 @@
+tile.blockMeat.name=Block of Meat
+tile.blockTofu.name=Block of Tofu
+tile.mechanicFrame.name=Reinforced Mechanic Frame
+item.framingIngot.name=Reinforced Framing Ingot
+item.tofu.name=Tofu
+item.conductorAlloyIngot.name=Conductor Alloy Ingot
+item.ceramicSpoon.name=Ceramic Spoon
+item.ev_crystal.name=Electrovibrantum Crystal
+item.forgingHammer.name=Forging Hammer
+tile.antenna.name=Antenna
+fluid.fluidMenstrual=Menstrual Blood
+tile.fluidMenstrual=Menstrual Blood
+itemGroup.mff=My Food Factory

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mff",
+  "name": "My Food Factory",
+  "description": "Lot of food and food processors xdd",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["LeoC200"],
+  "credits": "ustc-zzzz for writing a tutorial that inspiring me very much",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

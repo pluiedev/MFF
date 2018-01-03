@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "mff:framing_ingot"
+        },
+        "title": "My Food Factory",
+        "description": "Triple iron ingots makes everything possible",
+        "background": "mff:textures/gui/advancements/backgrounds/mff.png"
+    },
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+    		"recipes": [
+    			"mff:framing_ingot"
+    		]
+    }
+}

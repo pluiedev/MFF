@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#|#",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot",
+      "data": 0
+    },
+    "|": {
+    	  "item": "minecraft:stick",
+    	  "data": 0
+    }
+  },
+  "result": {
+    "item": "mff:forging_hammer"
+  }
+}

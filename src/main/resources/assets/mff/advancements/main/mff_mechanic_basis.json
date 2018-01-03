@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "mff:mechanic_frame"
+        },
+        "title": "Mechanic Basis",
+        "description": "A machinery needs a room"
+    },
+    "parent": "mff:main/mff_root",
+    "criteria": {
+        "framing": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "mff:framing_ingot"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+    		"recipes": [
+    			"mff:mechanic_frame"
+    		]
+    }
+}

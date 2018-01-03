@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot",
+      "data": 0
+    },
+	{
+      "item": "minecraft:iron_ingot",
+      "data": 0
+    },
+	{
+      "item": "minecraft:iron_ingot",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "mff:framing_ingot",
+	"data": 0,
+	"count": 2
+  }
+}
