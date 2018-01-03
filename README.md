@@ -1,7 +1,6 @@
-# My Food Factory [ MFF ]
-High-tech food processors and ~~**weird**~~ foods
+# About this branch
+This is the main branch while active development.
 
-Not yet released (In fact, these food processors are not there yet :cry: )
+will merge when stable.
 
-#### Credits
-**ustc-zzzz** for writing *SUCH* a :+1: tutorial
+:smile:
