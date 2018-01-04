@@ -11,9 +11,11 @@ import org.apache.logging.log4j.Logger;
 
 @Mod(modid = MyFoodFactory.MODID,name = MyFoodFactory.NAME, version = MyFoodFactory.VERSION)
 public class MyFoodFactory {
+
 	static {
 		FluidRegistry.enableUniversalBucket();
 	}
+
 	public static final String MODID = "mff";
 	public static final String NAME = "My Food Factory";
 	public static final String VERSION = "1.0.0";

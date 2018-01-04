@@ -21,6 +21,7 @@ public class CommonProxy {
 
 	}
 	public void init(FMLInitializationEvent e) {
+	    System.out.println("initialize");
 		new RecipeLoader(e);
         MinecraftForge.EVENT_BUS.register(new EventHandler());
 	}

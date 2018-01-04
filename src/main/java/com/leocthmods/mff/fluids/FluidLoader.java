@@ -30,6 +30,7 @@ public class FluidLoader {
             blood = FluidRegistry.getFluid(blood.getName());
         } else {
             FluidRegistry.registerFluid(blood);
+            FluidRegistry.addBucketForFluid(blood);
         }
     }
 
